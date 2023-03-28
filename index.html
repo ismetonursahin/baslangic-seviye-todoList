@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript</title>
+  </head>
+  <body style="margin: 0vw">
+    <input
+      style="width: 100%; height: 25px"
+      id="inp"
+      type="text"
+      placeholder="Görevlerini Buraya Yaz ve ENTER'a Bas..."
+    />
+
+    <div
+      ondragover="uzerinde(event)"
+      ondrop="a(event)"
+      id="cop"
+      style="
+        background-color: black;
+        height: 500px;
+        border: 2px solid black;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        color: white;
+        display: grid;
+        place-items: center;
+        font-size: 20vw;
+      "
+    >
+      Çöp kutusu
+    </div>
+
+    <div>
+      <ul id="list"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
