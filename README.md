@@ -1,2 +1,2 @@
-# baslangic-seviye-todoList
-To do List
+# Baslangıç Seviye Basit Yöntemlerle yapmış olduğum To do List projem
+
